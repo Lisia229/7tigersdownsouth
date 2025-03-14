@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Madelyn';
+    src: local('Madelyn Fill-Regular'), local('Madelyn-Fill-Regular'),
+        url('MadelynFill-Regular.woff2') format('woff2'),
+        url('MadelynFill-Regular.woff') format('woff'),
+        url('MadelynFill-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
