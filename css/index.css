@@ -884,8 +884,35 @@ body {
   color: #fff;
   text-align: center;
   padding: 31px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  .copy-right{
+    padding-top: 5px;
+    width: 100%;
+    text-align: right;
+  }
+  .social-media{
+    width: 100%;
+    text-align: left;
+    a{
+      padding: 5px;
+    }
+    img{
+      width: 25px;
+      &:hover{
+        opacity: 0.5;
+        transition: 0.8s;
+      }
+    }
+  }
   @media (max-width: 767px) {
+    .social-media,.copy-right{
+      text-align: center;
+    }
     padding: 22px 20px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   small {
     font-size: 12px;
