@@ -437,19 +437,26 @@ body {
       margin-top: 10px;
     }
   }
+  
   .ab_text {
+    font-family: "Noto Sans TC", sans-serif;
     text-align: center;
     font-size: 14px;
     letter-spacing: 0.05em;
     line-height: calc(34 / 14);
     margin-top: 70px;
     @media (max-width: 767px) {
-      text-align: justify;
+      text-align: center;
     }
   }
 }
 /* sauna
 -------------------------------- */
+.list_content{
+  li{
+    padding: 10px 0;
+  }
+}
 .sec_sauna {
   background: url('../img/index/bg_gray.jpg') top left / 100% repeat-y;
   &.com_pd {
@@ -462,11 +469,11 @@ body {
       padding: 0 10px;
     }
   }
-  .sa_logo {
-    width: 80px;
+  .tiger_logo {
+    width: 120px;
     margin: 0 auto;
     @media (max-width: 767px) {
-      width: 51px;
+      width: 100px;
     }
   }
   .sa_title {
@@ -485,6 +492,7 @@ body {
   }
   /* slide */
   .sauna_slide {
+    font-family: "Noto Sans TC", sans-serif;
     margin-top: 70px;
     @media (max-width: 767px) {
       margin-top: 55px;
